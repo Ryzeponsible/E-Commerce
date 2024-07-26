@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SellPhone E-commerce</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo-title">
+            <img src="media/logo.png" onerror="this.src='images/not_found.png';" alt="Logo" class="logo" />
+            <h3>SellPhone</h3>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#apple">Iphone</a></li>
+                <li><a href="#samsung">Samsung</a></li>
+                <li><a href="#google">Google</a></li>
+                <li><a href="#xiaomi">Xiaomi</a></li>
+                <li><a href="#oppo">Oppo</a></li>
+                <li><a href="#oneplus">Oneplus</a></li>
+            </ul>
+        </nav>
+        <!-- change the cart text to icon -->
+        <button id="cart-button"><img class="carticon" src="media/carticon.png"></img> <span
+                id="cart-count"></span></button>
+    </header>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img src="media/slideshowiphone.jpg" style="width:100%">
+            <div class="text">Iphone 15 Series</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="media/slideshowsamsung.png" style="width:100%">
+            <div class="text">Samsung S Series</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="media/slideshowgoogle.jpg" style="width:100%">
+            <div class="text">Google Pixel Series</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="media/xiaomiseries.webp" style="width:100%">
+            <div class="text">Xiaomi Series</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="media/opposeries.webp" style="width:100%">
+            <div class="text">Oppo Reno Series</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="media/oneplusseries.webp" style="width:100%">
+            <div class="text">OnePlus Series</div>
+        </div>
+    </div>
+    <br>
+
+    <!-- Apple Products -->
+    <main>
+        <h2 id="apple">Apple Products</h2>
+        <div class="products">
+            <div class="card">
+                <img src="https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/article/Apple-iPhone-15-Pro-lineup-color-lineup-geo-230912_big.jpg.large.jpg"
+                    class="product_img" alt="Iphone 15 Pro Max">
+                <h1>Iphone 15 Pro Max</h1>
+                <p class="price">₱84,990.00</p>
+                <p>The iPhone 15 Pro Max redefines innovation. Cutting-edge tech, premium design.</p>
+                <p><button class="add-to-cart" data-product-id="1" data-product-name="Iphone 15 Pro Max"
+                        data-product-price="84990">Add to Cart</button></p>
+            </div>
+
+            <div class="card">
+                <img src="media/iphone15.jpg" class="product_img" alt="Iphone 15">
+                <h1>Iphone 15</h1>
+                <p class="price">₱56,990.00</p>
+                <p>Ultra thin and powerful, the iPhone 15. Next-gen features, stylish build, and elegant design.</p>
+                <p><button class="add-to-cart" data-product-id="2" data-product-name="Iphone 15"
+                        data-product-price="56990">Add to Cart</button></p>
+            </div>
+
+            <div class="card">
+                <img src="media/iphone14promax.jpg" class="product_img" alt="Iphone 14 Pro Max">
+                <h1>Iphone 14 Pro Max</h1>
+                <p class="price">₱84,990.00</p>
+                <p>Ultra smooth and efficient, the iPhone 14 Pro Max. Top-tier performance, refined design.</p>
+                <p><button class="add-to-cart" data-product-id="3" data-product-name="Iphone 14 Pro Max"
+                        data-product-price="84990">Add to Cart</button></p>
+            </div>
+            <div class="card">
+                <img src="media/iphone14.jpg" class="product_img" alt="Iphone 14">
+                <h1>Iphone 14 Pro</h1>
+                <p class="price">₱70,990.00</p>
+                <p>Compact and dynamic, the iPhone 14 Pro. Superior technology, sleek aesthetics.</p>
+                <p><button class="add-to-cart" data-product-id="4" data-product-name="Iphone 14"
+                        data-product-price="70990">Add to Cart</button></p>
+            </div>
+
+            <div class="card">
+                <img src="media/ipad13pro.jpg" class="product_img" alt="Ipad 13 Pro">
+                <h1>Ipad 13 Pro</h1>
+                <p class="price">₱94,990.00</p>
+                <p>Powerful and versatile, the iPad 13 Pro. High-performance capabilities, sophisticated design.</p>
+                <p><button class="add-to-cart" data-product-id="5" data-product-name="Ipad 13 Pro"
+                        data-product-price="94990">Add to Cart</button></p>
+            </div>
+
+        </div>
+    </main>
+
+
+    <!-- Samsung Products -->
+    <main>
+        <h2 id="samsung">Samsung Products</h2>
+        <div class="products">
+            <div class="card">
+                <img src="media/samsung24ultra.jpg" class="product_img" alt="Samsung S24 Ultra">
+                <h1>Samsung S24 Ultra</h1>
+                <p class="price">₱81,990.00</p>
+                <p>High-performance and sleek, the Samsung S24 Ultra. Cutting-edge tech, elegant design.</p>
+                <p><button class="add-to-cart" data-product-id="6" data-product-name="Samsung S24 Ultra"
+                        data-product-price="81990">Add to Cart</button></p>
+            </div>
+
+            <div class="card">
+                <img src="media/samsung24plus.jpg" class="product_img" alt="Samsung S24 Plus">
+                <h1>Samsung S24 Plus</h1>
+                <p class="price">₱68,990.00</p>
+                <p>Dynamic and powerful, the Samsung S24 Plus. Advanced features, modern aesthetics.</p>
+                <p><button class="add-to-cart" data-product-id="7" data-product-name="Samsung S24 Plus"
+                        data-product-price="68990">Add to Cart</button></p>
+            </div>
+
+            <div class="card">
+                <img src="media/samsung23ultra.jpg" class="product_img" alt="Samsung S23 Ultra">
+                <h1>Samsung S23 Ultra</h1>
+                <p class="price">₱79,990.00</p>
+                <p>Robust and innovative, the Samsung S23 Ultra. Superior performance, stylish build.</p>
+                <p><button class="add-to-cart" data-product-id="8" data-product-name="Samsung S23 Ultra"
+                        data-product-price="79990">Add to Cart</button></p>
+            </div>
+            <div class="card">
+                <img src="media/samsung23plus.jpg" class="product_img" alt="Samsung S23 Plus">
+                <h1>Samsung S23 Plus</h1>
+                <p class="price">₱53,990.00</p>
+                <p>Versatile and efficient, the Samsung S23 Plus. Next-gen technology, refined design.</p>
+                <p><button class="add-to-cart" data-product-id="9" data-product-name="Samsung S23 Plus"
+                        data-product-price="53990">Add to Cart</button></p>
+            </div>
+
+            <div class="card">
+                <img src="media/samsungzfold5.jpg" class="product_img" alt="Samsung Z Fold 5">
+                <h1>Samsung Z Fold 5</h1>
+                <p class="price">₱98,990.00</p>
+                <p>Revolutionary and flexible, the Samsung Z Fold 5. Foldable display, premium craftsmanship.</p>
+                <p><button class="add-to-cart" data-product-id="10" data-product-name="Samsung Z Fold 5"
+                        data-product-price="98990">Add to Cart</button></p>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Google Products -->
+    <main>
+        <h2 id="google">Google Products</h2>
+        <div class="products">
+            <div class="card">
+                <img src="media/googlepixel8pro.jpg" class="product_img" alt="Google Pixel 8 Pro">
+                <h1>Google Pixel 8 Pro</h1>
+                <p class="price">₱59,990.00</p>
+                <p>Advanced and intuitive, the Google Pixel 8 Pro. High-end performance, refined design.</p>
+                <p><button class="add-to-cart" data-product-id="11" data-product-name="Google Pixel 8 Pro"
+                        data-product-price="59990">Add to Cart</button></p>
+            </div>
+
+            <div class="card">
+                <img src="media/googlepixel8.jpg" class="product_img" alt="Google Pixel 8">
+                <h1>Google Pixel 8</h1>
+                <p class="price">₱29,995.00</p>
+                <p>Smart and sleek, the Google Pixel 8. Innovative features, flexible deisgn, and elegant build.</p>
+                <p><button class="add-to-cart" data-product-id="12" data-product-name="Google Pixel 8"
+                        data-product-price="29995">Add to Cart</button></p>
+            </div>
+
+            <div class="card">
+                <img src="media/googlepixel7pro.jpg" class="product_img" alt="Google Pixel 7 Pro">
+                <h1>Google Pixel 7 Pro</h1>
+                <p class="price">₱25,999.00</p>
+                <p>Powerful and sophisticated, the Google Pixel 7 Pro. Top-tier tech, stylish design.</p>
+                <p><button class="add-to-cart" data-product-id="13" data-product-name="Google Pixel 7 Pro"
+                        data-product-price="25999">Add to Cart</button></p>
+            </div>
+
+            <div class="card">
+                <img src="media/googlepixel7.jpg" class="product_img" alt="Google Pixel 7 Pro">
+                <h1>Google Pixel 7</h1>
+                <p class="price">₱17,051.44</p>
+                <p>Efficient and compact, the Google Pixel 7. Superior technology, modern aesthetics.</p>
+                <p><button class="add-to-cart" data-product-id="14" data-product-name="Google Pixel 7"
+                        data-product-price="17051">Add to Cart</button></p>
+            </div>
+            <div class="card">
+                <img src="media/googlepixel6pro.jpg" class="product_img" alt="Google Pixel 6 Pro">
+                <h1>Google Pixel 6 Pro</h1>
+                <p class="price">₱23,990.00</p>
+                <p>Dynamic and robust, the Google Pixel 6 Pro. Cutting-edge capabilities, premium design.</p>
+                <p><button class="add-to-cart" data-product-id="15" data-product-name="Google Pixel 6 Pro"
+                        data-product-price="23990">Add to Cart</button></p>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Xiaomi Products -->
+    <main>
+        <h2 id="xiaomi">Xiaomi Products</h2>
+        <div class="products">
+            <div class="card">
+                <img src="media/xiaomi14.webp" class="product_img" alt="Xiaomi 14">
+                <h1>Xiaomi 14</h1>
+                <p class="price">₱47,999.00</p>
+                <p>Elegant and powerful, the Xiaomi 14. State-of-the-art features, sleek design.</p>
+                <p><button class="add-to-cart" data-product-id="16" data-product-name="Xiaomi 14"
+                        data-product-price="47999">Add to Cart</button></p>
+            </div>
+
+            <div class="card">
+                <img src="media/xiaomi13pro.jpg" class="product_img" alt="Xiaomi 13 Pro">
+                <h1>Xiaomi 13 Pro</h1>
+                <p class="price">₱39,950.00</p>
+                <p>Advanced and refined, the Xiaomi 13 Pro. Superior performance, premium build.</p>
+                <p><button class="add-to-cart" data-product-id="17" data-product-name="Xiaomi 13 Pro"
+                        data-product-price="39950">Add to Cart</button></p>
+            </div>
+
+            <div class="card">
+                <img src="media/redmitnote12.jpg" class="product_img" alt="Xiaomi Redmi Note 12">
+                <h1>Xiaomi Redmi Note 12</h1>
+                <p class="price">₱8,999.00</p>
+                <p>Versatile and efficient, the Xiaomi Redmi Note 12. Impressive tech, stylish design.</p>
+                <p><button class="add-to-cart" data-product-id="18" data-product-name="Xiaomi Redmi Note 12"
+                        data-product-price="8999">Add to Cart</button></p>
+            </div>
+
+            <div class="card">
+                <img src="media/xiaomimi11.jpg" class="product_img" alt="Xiaomi Mi 11">
+                <h1>Xiaomi Mi 11</h1>
+                <p class="price">₱36,990.00</p>
+                <p>Dynamic and innovative, the Xiaomi Mi 11. High-performance capabilities, modern aesthetics.</p>
+                <p><button class="add-to-cart" data-product-id="19" data-product-name="Xiaomi Mi 11"
+                        data-product-price="36990">Add to Cart</button></p>
+            </div>
+            <div class="card">
+                <img src="media/xiaomifold3.webp" class="product_img" alt="Xioami Fold 3">
+                <h1>Xioami Fold 3</h1>
+                <p class="price">₱55,999.00</p>
+                <p>Revolutionary and flexible, the Xiaomi Fold 3. Foldable design, cutting-edge technology.</p>
+                <p><button class="add-to-cart" data-product-id="20" data-product-name="Xioami Fold 3"
+                        data-product-price="55999">Add to Cart</button></p>
+            </div>
+        </div>
+    </main>
+
+    
+    <!-- Oppo Products -->
+    <main>
+        <h2 id="oppo">Oppo Products</h2>
+        <div class="products">
+            <div class="card">
+                <img src="media/opporeno12pro.jpg" class="product_img" alt="Oppo Reno 12 Pro">
+                <h1>Oppo Reno 12 Pro</h1>
+                <p class="price">34,999.00</p>
+                <p>Sleek and powerful, the Oppo Reno 12 Pro. Advanced camera system, premium design.</p>
+                <p><button class="add-to-cart" data-product-id="21" data-product-name="Oppo Reno 12 Pro"
+                        data-product-price="34999">Add to Cart</button></p>
+            </div>
+
+            <div class="card">
+                <img src="media/opporeno11pro.jpg" class="product_img" alt="Oppo Reno 11 Pro">
+                <h1>Oppo Reno 11 Pro</h1>
+                <p class="price">31,999.00</p>
+                <p>Stylish and efficient, the Oppo Reno 11 Pro. Superior performance, sleek aesthetics.</p>
+                <p><button class="add-to-cart" data-product-id="22" data-product-name="Oppo Reno 11 Pro"
+                        data-product-price="31999">Add to Cart</button></p>
+            </div>
+
+            <div class="card">
+                <img src="media/oppofindx.jpg" class="product_img" alt="Oppo Find X">
+                <h1>Oppo Find X</h1>
+                <p class="price">₱65,990.00</p>
+                <p>Innovative and elegant, the Oppo Find X. Edge-to-edge display, cutting-edge technology.</p>
+                <p><button class="add-to-cart" data-product-id="23" data-product-name="Oppo Find X"
+                        data-product-price="65990">Add to Cart</button></p>
+            </div>
+
+            <div class="card">
+                <img src="media/oppofindn3.jpg" class="product_img" alt="Oppo Find N3 Fold">
+                <h1>Oppo Find N3 Fold</h1>
+                <p class="price">₱64,999.00</p>
+                <p>Flexible and dynamic, the Oppo Find N3 Fold. Foldable display, next-gen features.</p>
+                <p><button class="add-to-cart" data-product-id="24" data-product-name="Oppo Find N3 Fold"
+                        data-product-price="64999">Add to Cart</button></p>
+            </div>
+            <div class="card">
+                <img src="media/oppofindflip.jpg" class="product_img" alt="Oppo Find N3 Flip">
+                <h1>Oppo Find N2 Flip</h1>
+                <p class="price">₱61,999.00</p>
+                <p>Versatile and stylish, the Oppo Find N2 Flip. Flip design, advanced functionality.</p>
+                <p><button class="add-to-cart" data-product-id="25" data-product-name="Oppo Find N2 Flip"
+                        data-product-price="61999">Add to Cart</button></p>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- OnePlus Products -->
+    <main>
+        <h2 id="oneplus">OnePlus Products</h2>
+        <div class="products">
+
+            <div class="card">
+                <img src="media/oneplus12.jpg" class="product_img" alt="OnePlus 12">
+                <h1>OnePlus 12</h1>
+                <p class="price">₱63,990.00</p>
+                <p>Sleek and powerful, the OnePlus 12. Flagship performance, premium design.</p>
+                <p><button class="add-to-cart" data-product-id="26" data-product-name="OnePlus 12"
+                        data-product-price="63990">Add to Cart</button></p>
+            </div>
+
+            <div class="card">
+                <img src="media/oneplus11.jpg" class="product_img" alt="OnePlus 11 5G">
+                <h1>OnePlus 11 Pro 5G</h1>
+                <p class="price">₱40,150.00</p>
+                <p>Dynamic and efficient, the OnePlus 11 Pro 5G. Cutting-edge technology, sleek aesthetics.</p>
+                <p><button class="add-to-cart" data-product-id="27" data-product-name="OnePlus 11 5G"
+                        data-product-price="40150">Add to Cart</button></p>
+            </div>
+
+            <div class="card">
+                <img src="media/oneplusnordce4.webp" class="product_img" alt="OnePlus Nord CE4">
+                <h1>OnePlus Nord CE4</h1>
+                <p class="price">₱17,600.00</p>
+                <p>Versatile and affordable, the OnePlus Nord CE 4. Reliable performance, modern design.</p>
+                <p><button class="add-to-cart" data-product-id="28" data-product-name="OnePlus Nord CE4"
+                        data-product-price="17600">Add to Cart</button></p>
+            </div>
+
+            <div class="card">
+                <img src="media/oneplusnord3.jpg" class="product_img" alt="One Plus Nord 3 5G">
+                <h1>OnePlus Nord 3 5G</h1>
+                <p class="price">₱29,990.00</p>
+                <p>Innovative and sleek, the OnePlus Nord 3 5G. Advanced features, stylish build.</p>
+                <p><button class="add-to-cart" data-product-id="29" data-product-name="One Plus Nord 3 5G"
+                        data-product-price="29990">Add to Cart</button></p>
+            </div>
+
+            <div class="card">
+                <img src="media/oneplusfoldv.webp" class="product_img" alt="OnePlus V Fold">
+                <h1>OnePlus V Fold</h1>
+                <p class="price">₱61,600.00</p>
+                <p>Revolutionary and flexible, the OnePlus V Fold. Foldable display, premium craftsmanship.</p>
+                <p><button class="add-to-cart" data-product-id="30" data-product-name="OnePlus V Fold"
+                        data-product-price="61600">Add to Cart</button></p>
+            </div>
+        </div>
+    </main>
+
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Your Cart</h2>
+            <ul id="cart-items"></ul>
+            <p>Total: ₱<span id="cart-total">0</span></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 SellPhone. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
